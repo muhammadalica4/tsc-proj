@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "sourceMap": false,
+    "outDir": "./build",
+    "rootDir": "./src",
+    "noEmit": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["./typings"],
+    "esModuleInterop": true
+  },
+  "files": ["./src/index.ts"]
+}
